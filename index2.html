@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Grid to Slideshow Animations | Demo 2 | Codrops</title>
+		<meta name="description" content="Some ideas for grid to slideshow switch animations using GSAP's Flip plugin" />
+		<meta name="keywords" content="gsap flip, grid, slideshow, animation, inspiration, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://use.typekit.net/asb7ety.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="demo-2 loading">
+		<main>
+			<div class="frame">
+				<div class="frame__title"> 
+					<h1 class="frame__title-main">Grid to Slideshow Switch</h1> 
+					<a aria-label="Back to the article" class="frame__title-back" href="https://tympanus.net/codrops/?p=71899"> 
+						<span class="oh__inner">Back to the article</span> 
+						<svg width="18px" height="18px" viewBox="0 0 24 24"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+						</svg>
+					</a>
+				</div>
+				<a class="frame__prev" href="http://tympanus.net/Tutorials/WebGLCarousel/">Previous demo</a>
+				<nav class="frame__demos">
+					<span class="frame__demos-item">More layouts: </span>
+					<a class="frame__demos-item" href="index.html">1</a>
+					<span class="frame__demos-item" href="index2.html">2</span>
+					<a class="frame__demos-item" href="index3.html">3</a>
+				</nav>
+			</div>
+			<div class="intro-grid intro-grid--labels">
+				<span class="intro-grid__label pos-1 oh"><span class="oh__inner">I</span></span>
+				<span class="intro-grid__label pos-2 oh"><span class="oh__inner">II</span></span>
+				<span class="intro-grid__label pos-3 oh"><span class="oh__inner">III</span></span>
+				<span class="intro-grid__label pos-4 oh"><span class="oh__inner">IV</span></span>
+				<span class="intro-grid__label pos-5 oh"><span class="oh__inner">V</span></span>
+				<span class="intro-grid__label pos-6 oh"><span class="oh__inner">VI</span></span>
+				<span class="intro-grid__label pos-7 oh"><span class="oh__inner">VII</span></span>
+				<span class="intro-grid__label pos-8 oh"><span class="oh__inner">VIII</span></span>
+			</div>
+			<div class="intro-grid intro-grid--images">
+				<div class="intro-grid__img pos-11" style="background-image:url(img/3.jpg)"></div>
+				<div class="intro-grid__img pos-16" style="background-image:url(img/8.jpg)"></div>
+				<div class="intro-grid__img pos-9" style="background-image:url(img/1.jpg)"></div>
+				<div class="intro-grid__img pos-12" style="background-image:url(img/4.jpg)"></div>
+				<div class="intro-grid__img pos-17" style="background-image:url(img/9.jpg)"></div>
+				<div class="intro-grid__img pos-20" style="background-image:url(img/12.jpg)"></div>
+				<div class="intro-grid__img pos-21" style="background-image:url(img/13.jpg)"></div>
+				<div class="intro-grid__img pos-13" style="background-image:url(img/5.jpg)"></div>
+				<div class="intro-grid__img pos-14" style="background-image:url(img/6.jpg)"></div>
+				<div class="intro-grid__img pos-19" style="background-image:url(img/11.jpg)"></div>
+				<div class="intro-grid__img pos-15" style="background-image:url(img/7.jpg)"></div>
+				<div class="intro-grid__img pos-18" style="background-image:url(img/10.jpg)"></div>   
+				<div class="intro-grid__img pos-22" style="background-image:url(img/14.jpg)"></div>
+				<div class="intro-grid__img pos-10" style="background-image:url(img/2.jpg)"></div>
+			</div>
+			<div class="intro-title">
+				<h2 class="intro-title__main oh"><span class="oh__inner">Duo Naval</span></h2>
+				<span class="intro-title__sub oh"><span class="oh__inner">Prompt Fashion</span></span>
+			</div>
+			<div class="slider-title">
+				<h3 class="slider-title__main oh"><span class="oh__inner">Collection</span></h3>
+				<p class="slider-title__desc">The collection is a celebration of beauty, sustainability, and ethical production.</p>
+			</div>
+			<div class="controls">
+				<button class="unbutton close">X</button>
+				<nav class="nav">
+					<button class="unbutton nav__item">prev</button>
+					<span class="nav__index">
+						<span>1</span>/<span>15</span>
+					</span>
+					<button class="unbutton nav__item">next</button>
+				</nav>
+			</div>
+		</main>
+		<script src="js/gsap.min.js"></script>
+		<script src="js/Flip.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="js/demo2/index.js"></script>
+		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+	</body>
+</html>
